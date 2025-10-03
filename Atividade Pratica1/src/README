@@ -1,0 +1,17 @@
+# 🎬 Projeto RegistroFilmes
+
+Este projeto simula o cadastro de filmes usando conceitos de Programação Orientada a Objetos em Java. Ele foi desenvolvido como parte dos meus estudos no primeiro período do curso.
+
+## 🧠 Conceitos aplicados
+- Encapsulamento
+- Métodos
+- Tratamento de exceções com `throw`
+- Organização de classes
+
+## 🚀 Como executar
+Compile e execute a classe `RegistroFilmes.java` em sua IDE ou terminal Java.
+
+## 📌 Melhorias futuras
+- Adicionar busca por gênero
+- Salvar dados em arquivo
+- Interface gráfica simples
