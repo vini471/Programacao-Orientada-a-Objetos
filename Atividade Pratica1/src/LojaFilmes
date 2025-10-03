@@ -1,0 +1,23 @@
+public class LojaFilmes {
+    public static void main(String[] args) {
+        GerenciadorRegistros gr = new GerenciadorRegistros();
+
+        RegistroFilmes rf1 = new RegistroFilmes("Matrix", "199903/31", "João", 9.99);
+        RegistroFilmes rf2 = new RegistroFilmes("Avatar", "2009/12/18", "Maria", 39.99);
+        RegistroFilmes rf3 = new RegistroFilmes("Vingadores", "2012/04/25", "Carlos", 39.91);
+        RegistroFilmes rf4 = new RegistroFilmes("Titanic", "1997/12/19", "Ana", 14.99);
+        RegistroFilmes rf5 = new RegistroFilmes("O Rei Leão", "1994/06/24", "Pedro", 9.99);
+        RegistroFilmes rf6 = new RegistroFilmes("Coringa", "2019/10/04", "Julia", 9.99);
+        RegistroFilmes rf7 = new RegistroFilmes("Homem-Aranha", "2002/05/03", "Lucas", 9.99);
+
+        gr.AdicionaRegistro(rf1);
+        gr.AdicionaRegistro(rf2);
+        gr.AdicionaRegistro(rf3);
+        gr.AdicionaRegistro(rf4);
+        gr.AdicionaRegistro(rf5);
+        gr.AdicionaRegistro(rf6);
+        gr.AdicionaRegistro(rf7);
+
+        System.out.println(gr.FilmeMaiorValor().getValorFilme());
+    }
+}
